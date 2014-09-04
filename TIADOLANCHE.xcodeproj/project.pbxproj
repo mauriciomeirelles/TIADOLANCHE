@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = bepid;
 				TargetAttributes = {
+					22E5BF9019881705008ABF13 = {
+						DevelopmentTeam = ULQKCW5CNM;
+					};
 					22E5BFB119881705008ABF13 = {
 						TestTargetID = 22E5BF9019881705008ABF13;
 					};
@@ -377,11 +380,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TIADOLANCHE/TIADOLANCHE-Prefix.pch";
 				INFOPLIST_FILE = "TIADOLANCHE/TIADOLANCHE-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3A146DA7-B6CE-492E-8330-B8085B30B01F";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,11 +396,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TIADOLANCHE/TIADOLANCHE-Prefix.pch";
 				INFOPLIST_FILE = "TIADOLANCHE/TIADOLANCHE-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3A146DA7-B6CE-492E-8330-B8085B30B01F";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -459,6 +466,7 @@
 				22E5BFC519881705008ABF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22E5BFC619881705008ABF13 /* Build configuration list for PBXNativeTarget "TIADOLANCHETests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +475,7 @@
 				22E5BFC819881705008ABF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
